@@ -15,12 +15,6 @@ for i in f.read():
     else:
         x-=1
 
-    tempValue = my_dict.get((x,y), "None")
-
-    if tempValue == "None":
-        my_dict[x,y]=1
-    else:
-        tempValue+=1
-        my_dict[x,y]=tempValue
+    my_dict[x,y]= my_dict.get((x,y), 0) +1
 
 print(len(my_dict))
