@@ -19,15 +19,11 @@ data=[]
 for i in f.readlines():
     data.append(i.strip())
 
-print(data)
-
-print(hashlib.md5(b"iwrupvqb1").hexdigest())
-
 i=0
 while True:
     i+=1
-    data[0]+=str(i)
-    encoding=data[0].encode('utf-8')
+    testing_str=data[0]+str(i)
+    encoding=testing_str.encode('utf-8')
     m=hashlib.md5(encoding).hexdigest()
     print(m[:5])
 
