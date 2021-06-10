@@ -32,4 +32,4 @@ for i in f.readlines():
 print(data)
 
 
-print(len([x for x in data if (re.search(r'([aeiou].*){3,}', x) and re.search(r'(.)\1{1}', x) and not re.search(r'ab|cd|pq|xy', x))]))
+print(len([x for x in data if (re.search(r'([aeiou].*){3}', x) and re.search(r'(.)\1', x) and not re.search(r'ab|cd|pq|xy', x))]))
