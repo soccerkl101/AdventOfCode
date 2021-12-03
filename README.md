@@ -1,5 +1,5 @@
 # AdventOfCode
 
-Kevin's Github Reposity
+Kevin's Github Repository
 
 Just storing some of my code solutions here
