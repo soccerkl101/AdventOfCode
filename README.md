@@ -1,3 +1,4 @@
 # AdventOfCode
 
-This is my code from working on AdventOfCode
+Kevin's Github Reposity
+Just storing some of my code solutions here
