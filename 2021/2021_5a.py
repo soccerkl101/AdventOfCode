@@ -60,8 +60,7 @@ for i in d:
             for y in range(minY, maxY+1):
                 board[(x,y)] = board.get((x,y),0) + 1
                 #https://stackoverflow.com/questions/3496518/using-a-dictionary-to-count-the-items-in-a-list
-print(board)
-print(board.values())
+
 for i in board.values():
     if i > 1:
         count+=1
